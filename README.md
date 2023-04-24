@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * Trusty Med
 
 * requirements
@@ -22,6 +22,4 @@
 
 * run
     * php artisan serve
-=======
-# TrustyMedWeb
->>>>>>> origin/main
+
