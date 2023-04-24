@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-12 col-lg-6 mx-auto my-4">
                     <select name="gender" class="form-control custom-field" required>
-                        <option>Gender</option>
+                        <option disabled selected value="not specified">Gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="other">Other</option>
@@ -40,6 +40,7 @@
                     <input type="email" class="form-control custom-field" name="email" placeholder="Email" required>
                 </div>
                 <div class="col-12 col-lg-6 mx-auto my-4">
+                    <span style="color:grey;">At least 8 characters</span>
                     <input type="password" class="form-control custom-field" name="password" placeholder="********" required>
                 </div>
                 <div class="col-12 col-lg-6 mx-auto my-4">

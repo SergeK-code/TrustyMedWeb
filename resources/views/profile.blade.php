@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-12 col-lg-6 mx-auto my-4">
                     <select name="gender" class="form-control custom-field" required>
-                        <option>Gender</option>
+                        <option disabled selected value="not specified">Gender</option>
                         <option value="male" {{$user->gender == "male" ? 'selected' : ''}}>Male</option>
                         <option value="female" {{$user->gender == "female" ? 'selected' : ''}}>Female</option>
                         <option value="other" {{$user->gender == "other" ? 'selected' : ''}}>Other</option>
@@ -51,6 +51,7 @@
                     <input type="password" class="form-control custom-field" name="password" required>
                 </div>
                 <div class="col-12 col-lg-6 mx-auto my-4">
+                    <span style="color:grey;">At leasst 8 characters</span>
                     <input type="password" class="form-control custom-field" name="new_password" placeholder="New Password">
                 </div>
                 <div class="col-12 col-lg-6 mx-auto my-4">
